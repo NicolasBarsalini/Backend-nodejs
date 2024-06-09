@@ -12,12 +12,12 @@ Thumbs.db
 # Dependências do Node
 node_modules/
 
-# # Ambiente
-# .env
-# .env.local
-# .env.development.local
-# .env.test.local
-# .env.production.local
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Cache do Yarn
 .yarn/cache
@@ -42,6 +42,7 @@ coverage/
 # Arquivos temporários
 tmp/
 temp/
+
 
 # Ignorar diretórios de testes (opcional)
 test/
