@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios do Sistema
+.DS_Store
+Thumbs.db
+
+# Dependências do Node
+node_modules/
+
+# # Ambiente
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+
+# Cache do Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Diretórios de saída
+dist/
+build/
+coverage/
+
+# Arquivos de sistema operacional
+*.swp
+.sass-cache/
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Ignorar diretórios de testes (opcional)
+test/
+tests/
+
+# Ignorar documentação gerada (opcional)
+docs/
+
+# Arquivos de configuração do sistema operacional
+*.bak
+*.backup
+
+# Outros
+npm-debug.log
+yarn-debug.log
+*.tgz
+.vscode/
+.idea/
